@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Shivang Srivastava</h1>
 <h3 align="center">A passionate backend developer from India</h3>
 
-- 🌱 I’m currently learning **Django, C and C++**
+- 🌱 I’m currently learning **CSS, DSA with C++**
 
 - 📫 How to reach me **shivangsrivastava157@gmail.com**
 
