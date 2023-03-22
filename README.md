@@ -9,6 +9,8 @@
 
 - 🌱 I’m currently learning **React, DSA with C++, Express and Flask**
 
+- 👨‍💻 All of my projects are available at [shivangsrivastava.github.io/portfolio](shivangsrivastava.github.io/portfolio)
+
 - 📫 How to reach me **shivangsrivastava157@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
@@ -29,5 +31,7 @@
 
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=shivangsrivastava&show_icons=true&locale=en&layout=compact" alt="shivangsrivastava" /></p>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=shivangsrivastava&show_icons=true&locale=en" alt="shivangsrivastava" /></p>
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=shivangsrivastava&show_icons=true&cache_seconds=1800&locale=en" alt="shivangsrivastava" /></p>
+
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=shivangsrivastava&" alt="shivangsrivastava" /></p>
 
