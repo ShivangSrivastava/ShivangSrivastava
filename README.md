@@ -1,10 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GitHub Profile</title>
-</head>
 <body style="font-family: 'Roboto', sans-serif; background-color: #1e1e1e; color: #ddd; margin: 0; padding: 0; display: flex; justify-content: center; align-items: center; height: 100vh;">
   <div class="profile-card" style="background: #2b2b2b; border-radius: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); max-width: 400px; width: 100%; text-align: center; padding: 20px; transition: transform 0.3s, box-shadow 0.3s; animation: fadeIn 1s ease-in-out;">
     <img src="https://avatars.githubusercontent.com/u/114788987?v=4" alt="Profile Image" class="profile-img" style="width: 150px; height: 150px; border-radius: 50%; margin: 0 auto 20px; border: 5px solid #444; transition: border-color 0.3s, transform 0.3s, box-shadow 0.3s; animation: pulse 2s infinite;">
@@ -29,4 +22,4 @@
     <a href="mailto:shivangsrivastava157@gmail.com" class="contact-button" style="display: inline-block; margin-top: 20px; padding: 10px 20px; background: #ff6b6b; color: white; border-radius: 5px; text-decoration: none; transition: background 0.3s; animation: fadeIn 1s ease-in-out;">Contact Me</a>
   </div>
 </body>
-</html>
+
