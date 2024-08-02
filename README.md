@@ -47,6 +47,7 @@
   />
 </a>
 <h1>💻 Tech Stack:</h1>
+<div>
 <img
   src="https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white"
   alt="Dart"
@@ -99,7 +100,7 @@
   src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white"
   alt="Supabase"
 />
-
+</div>
 <h1>📊 GitHub Stats:</h1>
 <img
   src="https://github-readme-stats.vercel.app/api?username=ShivangSrivastava&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=false"
