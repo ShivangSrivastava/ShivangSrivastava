@@ -22,6 +22,7 @@
 </div>
 
 <h2>🌐 Socials:</h2>
+<div style="display:flex;flex-wrap: wrap;justify-content: flex-start;  gap:5px;">
 <a href="https://www.linkedin.com/in/shivang-srivastava-developer/">
   <img
     src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"
@@ -46,8 +47,10 @@
     alt="GMail"
   />
 </a>
+</div>
+
 <h1>💻 Tech Stack:</h1>
-<div>
+<div style="display:flex;flex-wrap: wrap;justify-content: flex-start;  gap:5px;">
 <img
   src="https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white"
   alt="Dart"
