@@ -1,20 +1,3 @@
-<div>
-  <img
-    src="https://avatars.githubusercontent.com/u/114788987?v=4"
-    alt="Profile Image"
-    style="width: 150px; height: 150px; border-radius: 50%; margin-bottom: 20px"
-  />
-  <div
-    style="
-      font-size: 24px;
-      font-weight: bold;
-      margin-bottom: 10px;
-      color: #ff6b6b;
-    "
-  >
-    Shivang Srivastava
-  </div>
-</div>
 
 <h1>💫 About Me:</h1>
 <div style="font-size: 18px; color: #61dafb">
