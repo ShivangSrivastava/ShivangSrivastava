@@ -143,6 +143,7 @@
     alt="Visit Count"
   />
 </a>
+<img src="https://github.com/ShivangSrivastava/ShivangSrivastava/blob/output/github-contribution-grid-snake.gif" alt="snake gif/>
 
 <h2>💰 You can help me by Donating</h2>
 <a href="https://buymeacoffee.com/shivang">
