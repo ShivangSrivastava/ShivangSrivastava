@@ -1,9 +1,21 @@
-<svg viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
-  <rect width="10" height="10">
-    <animate
-      attributeName="rx"
-      values="0;5;0"
-      dur="10s"
-      repeatCount="indefinite" />
-  </rect>
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="100" cy="100" r="50" fill="blue" id="circle" />
+  <style>
+    #circle {
+      animation: moveCircle 3s infinite alternate;
+    }
+
+    @keyframes moveCircle {
+      0% {
+        cx: 100;
+        cy: 100;
+        fill: blue;
+      }
+      100% {
+        cx: 150;
+        cy: 150;
+        fill: red;
+      }
+    }
+  </style>
 </svg>
