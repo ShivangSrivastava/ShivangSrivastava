@@ -118,11 +118,17 @@
             <tspan class="str-command">
                 "Reboot in 5 sec..."
             </tspan>
-            &&
+            <tspan>
+
+                &&
+            </tspan>
             <tspan class="command">
                 sleep
             </tspan>
-            5 &&
+            <tspan>
+
+                5 &&
+            </tspan>
             <tspan class="command">
                 reboot
             </tspan>
