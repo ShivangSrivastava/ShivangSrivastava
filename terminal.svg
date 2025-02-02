@@ -1,6 +1,6 @@
-<svg width="1020" height="650" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1020 650" preserveAspectRatio="xMidYMid">
+<?xml version="1.0" ?><svg xmlns="http://www.w3.org/2000/svg" width="1020" height="650" viewBox="0 0 1020 650" preserveAspectRatio="xMidYMid">
 
-    <rect id="bg-rect" class="bg" width="1000" height="620" rx="20" ry="20" />
+    <rect id="bg-rect" class="bg" width="1000" height="620" rx="20" ry="20"/>
 
     <text id="text-1" class="text" x="30" y="40">
         Arch Linux 6.7.1-arch1-1 (tty1)
@@ -21,9 +21,7 @@
 
     <text id="text-4" class="text" x="30" y="140">
         Last login:
-        <tspan id="last-login" class="last-login">
-            Mon Feb 3 10:42:01 2025 on tty1
-        </tspan>
+        <tspan id="last-login" class="last-login">Mon Feb 03 05:17:40 2025 on tty1</tspan>
     </text>
 
     <text id="text-5" class="text" x="30" y="190">
@@ -116,7 +114,7 @@
                 echo
             </tspan>
             <tspan class="str-command">
-                "Reboot in 5 sec..."
+                &quot;Reboot in 5 sec...&quot;
             </tspan>
             <tspan>
                 ;
