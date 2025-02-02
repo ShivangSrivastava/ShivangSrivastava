@@ -1,6 +1,8 @@
-<?xml version="1.0" ?><svg xmlns="http://www.w3.org/2000/svg" width="1020" height="650" viewBox="0 0 1020 650" preserveAspectRatio="xMidYMid">
+<?xml version="1.0" ?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1020" height="650" viewBox="0 0 1020 650"
+    preserveAspectRatio="xMidYMid">
 
-    <rect id="bg-rect" class="bg" width="1000" height="620" rx="20" ry="20"/>
+    <rect id="bg-rect" class="bg" width="1000" height="620" rx="20" ry="20" />
 
     <text id="text-1" class="text" x="30" y="40">
         Arch Linux 6.7.1-arch1-1 (tty1)
@@ -175,7 +177,6 @@
 
         .art {
             font-size: 15px;
-            fill: #89b4fa;
         }
 
         .profile {
