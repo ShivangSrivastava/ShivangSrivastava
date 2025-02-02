@@ -138,6 +138,11 @@
     </text>
 
     <style>
+        * {
+            font-family: 'JetBrains Mono', monospace;
+
+        }
+
         .bg {
             fill: #11111b;
             filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
@@ -154,7 +159,6 @@
 
         .text {
             font-size: 17px;
-            font-family: 'JetBrains Mono', monospace;
             fill: #cdd6f4;
         }
 
@@ -178,7 +182,6 @@
 
         .profile {
             font-size: 17px;
-            font-family: 'JetBrains Mono', monospace;
             fill: #89dceb;
         }
     </style>
