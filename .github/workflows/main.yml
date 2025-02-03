@@ -3,6 +3,7 @@ name: Run Python Script Hourly
 on:
   schedule:
     - cron: "*/1 * * * *"
+  workflow_dispatch:
 
 jobs:
   run-python-script:
