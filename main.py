@@ -1,19 +1,24 @@
-from datetime import datetime
-from xml.dom import minidom
+from modules.api import ApiManager
+from modules.svg import SVGTextModifier
+from modules.utils import SVG_ID, get_current_datetime
 
 FILE_NAME = "terminal.svg"
 
 
-doc = minidom.parse(FILE_NAME)
+stm = SVGTextModifier(FILE_NAME)
 
+apim = ApiManager()
+apim.setup()
 
-new_datetime = datetime.now().strftime("%a %b %d %H:%M:%S %Y on tty1")
+stm.modify_text(id_name=SVG_ID.last_login, new_value=get_current_datetime())
 
-tspans = doc.getElementsByTagName('tspan')
+stm.modify_text(id_name=SVG_ID.follower_count, new_value=apim.followers_count)
 
-for tspan in tspans:
-    if tspan.getAttribute('id') == 'last-login':
-        tspan.firstChild.nodeValue = new_datetime
+stm.modify_text(id_name=SVG_ID.following_count, new_value=apim.following_count)
+stm.modify_text(id_name=SVG_ID.bio, new_value=apim.bio)
+stm.modify_text(id_name=SVG_ID.repo_count, new_value=apim.public_repos)
+stm.modify_text(id_name=SVG_ID.star_count, new_value=apim.stars)
+stm.modify_text(id_name=SVG_ID.commit_count, new_value=apim.commits)
+stm.modify_text(id_name=SVG_ID.language, new_value=apim.most_used_language)
 
-with open(FILE_NAME, 'w') as file:
-    doc.writexml(file)
+stm.save(FILE_NAME)
