@@ -18,4 +18,4 @@ jobs:
           python-version: "3.x"
 
       - name: Run main.py
-        run: python main.py
+        run: python3 main.py
