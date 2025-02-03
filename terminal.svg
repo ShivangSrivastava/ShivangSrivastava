@@ -21,7 +21,7 @@
 
     <text id="text-4" class="text" x="30" y="140">
         Last login:
-        <tspan id="last-login" class="last-login">Mon Feb 03 17:12:31 2025 on tty1</tspan>
+        <tspan id="last-login" class="last-login">Mon Feb 03 18:19:12 2025 on tty1</tspan>
 
     </text>
 
@@ -85,7 +85,7 @@
 
         <tspan id="most-used-language" x="400" dy="1.3em">
             Most used language:
-            <tspan id="language">Dart, Shell, Python, JavaScript</tspan>
+            <tspan id="language">Dart, Python, JavaScript, Shell, Lua</tspan>
         </tspan>
     </text>
 
