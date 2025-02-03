@@ -21,3 +21,11 @@ jobs:
       - name: Run main.py
         run: |
           python3 main.py
+      - name: Commit and push
+        run: |
+          git config user.name "${GITHUB_ACTOR}"
+          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+          git add .
+          git commit -m "Updated Termnal"
+          git push "https://${GITHUB_ACTOR}:${TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:main || exit 0
+
