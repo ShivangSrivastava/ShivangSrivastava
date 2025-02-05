@@ -21,7 +21,7 @@
 
     <text id="text-4" class="text" x="30" y="140">
         Last login:
-        <tspan id="last-login" class="last-login">Wed Feb 05 13:20:20 2025 on tty1</tspan>
+        <tspan id="last-login" class="last-login">Wed Feb 05 14:13:19 2025 on tty1</tspan>
 
     </text>
 
