@@ -21,7 +21,7 @@
 
     <text id="text-4" class="text" x="30" y="140">
         Last login:
-        <tspan id="last-login" class="last-login">Thu Feb 06 03:17:45 2025 on tty1</tspan>
+        <tspan id="last-login" class="last-login">Thu Feb 06 04:17:01 2025 on tty1</tspan>
 
     </text>
 
@@ -80,7 +80,7 @@
         </tspan>
         <tspan id="total-commits" x="400" dy="1.3em">
             Total Commits:
-            <tspan id="commits-count">362</tspan>
+            <tspan id="commits-count">93</tspan>
         </tspan>
 
         <tspan id="most-used-language" x="400" dy="1.3em">
