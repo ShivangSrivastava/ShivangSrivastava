@@ -21,7 +21,7 @@
 
     <text id="text-4" class="text" x="30" y="140">
         Last login:
-        <tspan id="last-login" class="last-login">Sat Feb 15 14:11:41 2025 on tty1</tspan>
+        <tspan id="last-login" class="last-login">Sat Feb 15 15:13:53 2025 on tty1</tspan>
 
     </text>
 
@@ -76,7 +76,7 @@
         </tspan>
         <tspan id="total-stars" x="400" dy="1.3em">
             Total Stars:
-            <tspan id="stars-count">9</tspan>
+            <tspan id="stars-count">0</tspan>
         </tspan>
         <tspan id="total-commits" x="400" dy="1.3em">
             Total Commits:
