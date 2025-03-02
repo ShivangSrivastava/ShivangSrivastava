@@ -21,7 +21,7 @@
 
     <text id="text-4" class="text" x="30" y="140">
         Last login:
-        <tspan id="last-login" class="last-login">Wed Feb 26 01:09:41 2025 on tty1</tspan>
+        <tspan id="last-login" class="last-login">Sun Mar 02 01:14:02 2025 on tty1</tspan>
 
     </text>
 
@@ -61,7 +61,7 @@
         </tspan>
         <tspan id="followers" x="400" dy="1.3em">
             Followers:
-            <tspan id="followers-count">5</tspan>
+            <tspan id="followers-count">6</tspan>
         </tspan>
         <tspan id="profile-following" x="400" dy="1.3em">
             Following:
@@ -76,7 +76,7 @@
         </tspan>
         <tspan id="total-stars" x="400" dy="1.3em">
             Total Stars:
-            <tspan id="stars-count">9</tspan>
+            <tspan id="stars-count">10</tspan>
         </tspan>
         <tspan id="total-commits" x="400" dy="1.3em">
             Total Commits:
