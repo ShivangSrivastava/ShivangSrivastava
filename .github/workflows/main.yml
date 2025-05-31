@@ -33,34 +33,3 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-  run-python-script:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout output branch
-        uses: actions/checkout@v3
-        with:
-          ref: output
-
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: "3.x"
-
-      - name: Install dependencies
-        run: |
-          python3 -m pip install --upgrade pip
-          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-
-      - name: Run main.py
-        run: python3 main.py
-
-      - name: Commit and push updated data
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add path/to/your/timestamp_file.txt
-          git commit -m "Update last login timestamp" || echo "No changes"
-          git push origin output
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
