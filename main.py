@@ -4,7 +4,6 @@ from modules.utils import SVG_ID, get_current_datetime
 
 FILE_NAME = "terminal.svg"
 
-
 stm = SVGTextModifier(FILE_NAME)
 
 apim = ApiManager()
@@ -22,3 +21,10 @@ stm.modify_text(id_name=SVG_ID.commit_count, new_value=apim.commits)
 stm.modify_text(id_name=SVG_ID.language, new_value=apim.most_used_language)
 
 stm.save(FILE_NAME)
+
+# ### TODO:
+# [ ] Use golang
+# [ ] Manually change terminal details
+# [ ] Add view counts
+# [ ] Add more cool stuff
+#
